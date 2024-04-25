@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 
 /**
@@ -12,10 +13,10 @@ public class DataCollection {
     /**
      * Creates and returns an instance of DataCollection from an ArrayList. 
      *
-     * @param  data An ArrayList<Double> with the data to be observed.
+     * @param  inputData An ArrayList<Double> with the data to be observed.
      */
-    public DataCollection(ArrayList<Double> data) {
-        this.data = data;
+    public DataCollection(Double[] inputData) {
+        this.data = new ArrayList<Double>(Arrays.asList(inputData));;
         this.data.sort(Comparator.naturalOrder());
     }
 

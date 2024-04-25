@@ -1,14 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 class Main {
 
     public static void main(String[] args) {
 
-        Double[] inputData = {14.0,14.0,15.0,15.0,16.0,16.0};
-        ArrayList<Double> dataForCollection = new ArrayList<Double>(Arrays.asList(inputData));
-
-        DataCollection dataCollection = new DataCollection(dataForCollection); 
+        DataCollection dataCollection = new DataCollection(new Double[]{14.0,14.0,15.0,15.0,16.0,16.0}); 
 
         dataCollection.showData();
 
