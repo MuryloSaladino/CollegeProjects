@@ -52,8 +52,8 @@ public class DataCollection {
      */
     public double median() {
         if(data.size() % 2 == 0) {
-            int index = Math.round(data.size() / 2);
-            return (data.get(index) + data.get(index + 1)) / 2;
+            int index = data.size() / 2;
+            return (data.get(index) + data.get(index - 1)) / 2;
         }
         return data.get(Math.round(data.size() / 2) + 1);
     }
@@ -83,14 +83,8 @@ public class DataCollection {
      * @return the standard deviation as a double.
      */
     public double standardDeviation() {
-        double total = 0;
-        double average = this.arithmeticAverage();
-        
-        for (int i = 0; i < data.size(); i++) {
-            total += Math.pow(data.get(i) - average, 2);
-        }
 
-        return Math.pow(total / data.size(), 0.5);
+        return Math.pow(this.samplingVariance(), 0.5);
     }
 
     /**
