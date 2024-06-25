@@ -1,8 +1,10 @@
+import statistics.DataCollection;
+
 class Main {
 
     public static void main(String[] args) {
 
-        DataCollection dataCollection = new DataCollection(new Double[]{25.0, 26.0, 88.0, 49.0, 70.0, 73.0}); 
+        DataCollection dataCollection = new DataCollection(new Double[]{25.0, 26.0, 88.0, 49.0, 70.0, 73.0});
 
         dataCollection.showData();
 
