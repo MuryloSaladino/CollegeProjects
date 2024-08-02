@@ -1,5 +1,3 @@
-package statistics;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -51,8 +49,9 @@ public class DataCollection {
     /**
      * Finds and returns the median inside the collected data. <p>
      * <b>Formula:</b> <p>
-     * Median is the element at the middle of the list. 
-     * If the list has an even number of elements, then it will be the average between the two elements of the middle.
+     * Median is the element at the middle of the list.
+     * If the list has an even number of elements,
+     * then it will be the average between the two elements of the middle.
      * 
      * @return the median as a double.
      */
