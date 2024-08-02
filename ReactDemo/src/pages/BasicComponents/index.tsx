@@ -5,9 +5,8 @@ import RandomColorBox from "./components/RandomColorBox"
 import CounterBox from "./components/CounterBox"
 import GoodMorningBox from "./components/GoodMorningBox"
 
-function App() {
-
-    return (
+const BasicComponents = () => {
+    return(
         <Container maxWidth="xl" sx={{ marginTop: 3 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} md={6} lg={4} xl={3}>
@@ -30,4 +29,4 @@ function App() {
     )
 }
 
-export default App
+export default BasicComponents

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Next Wednesday",
+        "artist": "Chris Webby",
+        "genre": "Rap",
+        "featured": ["Anoyd", "BENNETT"],
+        "numberOfSongs": 15,
+        "duration": 63,
+        "price": 50.00,
+        "discography": "https://getondown.com/cdn/shop/products/EHD_002_CHRIS_WEBBY_Next_Wednesday_LP_800x.jpg?v=1651517232"
+    },
+    {
+        "id": 2,
+        "name": "CLOUDS (THE MIXTAPE)",
+        "artist": "NF",
+        "genre": "Rap",
+        "featured": ["Hopsin", "Tech N9ne"],
+        "numberOfSongs": 11,
+        "duration": 42,
+        "price": 75.00,
+        "discography": "https://m.media-amazon.com/images/I/51Nl0VBnzIS._UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Atlas",
+        "artist": "The Score",
+        "genre": "Rock",
+        "featured": [],
+        "numberOfSongs": 28,
+        "duration": 96,
+        "price": 90.00,
+        "discography": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2f/b6/6d/2fb66daa-d179-98ba-2ecc-2e5e8309d25d/17UM1IM25268.rgb.jpg/1200x1200bf-60.jpg"
+    }
+]
